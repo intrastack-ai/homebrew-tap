@@ -1,25 +1,25 @@
 class Intrastack < Formula
   desc "Deploy internal apps to Intrastack"
   homepage "https://intrastack.ai"
-  version "0.1.40"
+  version "0.1.41"
   on_macos do
     on_arm do
-      url "https://intrastack.ai/api/cli/releases/0.1.40/download?target=darwin-arm64"
-      sha256 "4f41efad5f377d1f0d1b083d0fa41be22094230979d58fa0c5a1ff35ebc04ce6"
+      url "https://intrastack.ai/api/cli/releases/0.1.41/download?target=darwin-arm64"
+      sha256 "2fef6f88248b5e5a0c650c13d0d50947adf288683080609456d6309a3b66e756"
     end
     on_intel do
-      url "https://intrastack.ai/api/cli/releases/0.1.40/download?target=darwin-x64"
-      sha256 "409105a53e2ce7e6602ba1c04fd3df48256dafc668c742cd1eef2f982314fb0e"
+      url "https://intrastack.ai/api/cli/releases/0.1.41/download?target=darwin-x64"
+      sha256 "14d63a9c4a8975dea5523bef4593a52ecc94cefeeb0048df86728661e9e44f99"
     end
   end
   on_linux do
     on_arm do
-      url "https://intrastack.ai/api/cli/releases/0.1.40/download?target=linux-arm64"
-      sha256 "16676941a9bb89152f7be3e01a21e9f90e4de444020ed18fcbcc348b878f6465"
+      url "https://intrastack.ai/api/cli/releases/0.1.41/download?target=linux-arm64"
+      sha256 "5039800277e5386b5b76dc15505e6dd88591c076bf0869b15f0b5af59837563c"
     end
     on_intel do
-      url "https://intrastack.ai/api/cli/releases/0.1.40/download?target=linux-x64"
-      sha256 "68db2c4b6ee81780b3df420fd59adf5c7dbd64bfd5a59bd0afe9bff6b6357261"
+      url "https://intrastack.ai/api/cli/releases/0.1.41/download?target=linux-x64"
+      sha256 "828b52d83afb36ff71f5e07db76d26184ca6020c6d21104906824c8d120bc93d"
     end
   end
 
